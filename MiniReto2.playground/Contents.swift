@@ -19,7 +19,7 @@ class Auto{
     
     /* Constructor de la clase auto */
     init(){
-        velocidad = .Apagado
+        self.velocidad = Velocidades(velocidadInicial: .Apagado)
     }
     
     /* Método que cambia el valor de velocidad a la siguiente velocidad gradual, de Apagado pasa a Velocidad baja y así sucesívamente
